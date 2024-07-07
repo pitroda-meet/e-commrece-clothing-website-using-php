@@ -27,12 +27,7 @@ This is a fully functional e-commerce clothing website built using PHP and MySQL
 - Apache/Nginx Server
 - Composer (for dependency management)
 
-### Installation
 
-1. **Clone the Repository**
-   ```bash
-   git clone [https://github.com/yourusername/e-commerce-clothing-website.git](https://github.com/pitroda-meet/e-commrece-clothing-website-using-php)
-   cd e-commerce-clothing-website
 ## Features Description
 
 ### User Authentication
