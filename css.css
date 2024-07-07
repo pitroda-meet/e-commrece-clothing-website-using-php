@@ -1,0 +1,107 @@
+
+
+
+a {
+	font-size:14px;
+	font-weight:700
+  }
+  .superNav {
+	font-size:13px;
+  }
+  .form-control {
+	outline:none !important;
+	box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+	.centerOnMobile {
+	  text-align:center
+	}
+  }
+
+
+  .product-card {
+    border: 1px solid #beb9b9;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    max-width: 280px; 
+    margin: auto; 
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card .card-img-top {
+    height: 250px;
+    object-fit: contain; /* or object-fit: cover; */
+    width: 100%; 
+}
+
+.product-card .card-body {
+    padding: 20px;
+}
+
+.product-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.product-card .card-text {
+    color: #555;
+}
+
+
+
+.add-to-cart,
+.view {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.add-to-cart {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.view {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.view:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+
+    
+.accordion-item {
+  border: none; 
+  outline: none; 
+  box-shadow: none;
+  color: black;
+}
+.accordion-button {
+  background-color: transparent !important; /* Remove background color */
+  box-shadow: none !important; /* Remove box shadow */
+  color: black;
+}
+.accordion-body ul {
+  list-style: none; /* Remove list style */
+  padding: 0;
+}
+.accordion-body ul li {
+  margin-bottom: 5px; /* Add some space between list items */
+}
+.accordion-body ul li a{
+  text-decoration: none;
+  color: black;
+}
